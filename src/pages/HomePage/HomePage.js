@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
 // Importación de rutas
-import routes from '../helpers/routes';
+import routes from '../../helpers/routes';
 
 // Importación de componentes
-import Button from '../components/Button/Button';
+import Button from '../../components/Button/Button';
 import CardDetail from '../components/CardDetail';
 
 const HomePage = () => {
@@ -24,7 +24,7 @@ const HomePage = () => {
                                 </h1>
                                 <p className="mt-4 text-base text-gray-500 sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">
                                     ¿Problemas con algún curso? ¿Hay un tema que no logras entender? 
-                                    ¿O tienes una tarea dificil de resolver?
+                                    ¿O tienes una tarea dific0il de resolver?
                                     Descuida, la ayuda que necesitas se encuentra aquí.
                                 </p>
                                 <p className="mt-2 text-base text-gray-500 sm:mt-4 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">
