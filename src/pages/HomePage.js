@@ -28,7 +28,7 @@ const HomePage = () => {
                                     Descuida, la ayuda que necesitas se encuentra aquí.
                                 </p>
                                 <p className="mt-2 text-base text-gray-500 sm:mt-4 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">
-                                    Descubre la variedad de servicios de asesoramiento que tenemos 
+                                    Descubre la variedad de servicios de tutoria que tenemos 
                                     para ti, escoge el que mejor se adapte a tus necesidades
                                     y comienza a reforzar tus conocimientos.
                                 </p>
@@ -53,13 +53,13 @@ const HomePage = () => {
                             ACERCA DE NOSOTROS
                         </h2>
                         <h1 className="mt-2 text-4xl font-bold">
-                            Bienvenido a TUTOLIN
+                            Bienvenido a BuscaTuProfe
                         </h1>
                         <p className="mt-3 text-sm text-gray-500 sm:mt-5 sm:text-base sm:max-w-lg sm:mx-auto md:mt-5 md:text-lg lg:mx-0">
-                            Somos una empresa poner al alcance de los estudiantes una plataforma 
-                            que reuna diversos servicios de tutoría de distintas áreas con los 
+                            Somos un grupo de estudiantes que creo una plataforma 
+                            que reune diversos servicios de tutoría de distintas áreas con los 
                             cuales puedan reforzar sus conocimientos, y a su vez, brindar a los 
-                            educadores iniciantes un espacio donde ofertar sus servicios.
+                            educadores iniciantes un espacio donde puedan ofertar sus servicios.
                             <br /><br />
                             Con el objetivo de conectar a los estudiantes con necesidades de reforzar 
                             su aprendizaje y a las personas que deseen compartir sus conocimientos.
