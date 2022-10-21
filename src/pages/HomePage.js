@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import routes from '../helpers/routes';
 
 // Importación de componentes
-import Button from '../components/Button';
+import Button from '../components/Button/Button';
 import CardDetail from '../components/CardDetail';
 
 const HomePage = () => {
