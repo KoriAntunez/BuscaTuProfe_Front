@@ -1,14 +1,14 @@
-# 📝 FRONTEND: BuscaTuProfe
+# 🤓 FRONTEND: BuscaTuProfe
 
 ## Instalación
 
-Clonar el presente repositorio en el directorio de su agrado con la siguiente línea de comando:
+Clonar el repositorio en el directorio donde desee con el siguiente comando:
 
 ```
 git clone https://github.com/KoriAntunez/BuscaTuProfe_Front2.git
 ```
 
-Ingresar a la carpeta `...\frontend` de la dirección donde se encuentra ubicado el proyecto y ejecutar el comando:
+Ingresar en el proyecto y ejecutar el comando:
 
 ```
 npm install
@@ -16,7 +16,7 @@ npm install
 
 ## Despliegue
 
-Finalmente, para levantar el proyecto en su máquina local, ejecutar el siguiente comando en la misma dirección anterior:
+Finalmente, para levantar el proyecto localmente, ejecutar el siguiente comando:
 
 ```
 npm run start
@@ -24,7 +24,7 @@ npm run start
 
 ## Dependencias
 
-Es necesario tener previamente instalado los siguientes programas para seguir las instrucciones exitosamente.
+Previamente tener instalado los siguientes programas.
 
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com) Para ejecutar los comandos de `git`
 
