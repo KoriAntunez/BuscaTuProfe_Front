@@ -5,7 +5,7 @@ import routes from '../helpers/routes';
 
 // Importación de componentes
 import Button from '../components/Button/Button';
-import CardDetail from '../components/CardDetail';
+import CardDetail from '../components/CardDetail/CardDetail';
 
 const HomePage = () => {
     return (
