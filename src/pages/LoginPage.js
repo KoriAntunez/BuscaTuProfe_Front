@@ -7,9 +7,9 @@ import routes from '../helpers/routes';
 import useAuth from '../auth/useAuth';
 
 // Importación de componentes
-import Button from '../components/Button';
-import InputText from '../components/InputText';
-import Option from '../components/Option';
+import Button from '../components/Button/Button';
+import InputText from '../components/InputText/InputText';
+import Option from '../components/Option/Option';
 
 const LoginPage = () => {
     const { login } = useAuth();
