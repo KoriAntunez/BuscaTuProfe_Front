@@ -5,7 +5,7 @@
 Clonar el repositorio en el directorio donde desee con el siguiente comando:
 
 ```
-git clone https://github.com/KoriAntunez/BuscaTuProfe_Front2.git
+git clone https://github.com/KoriAntunez/BuscaTuProfe_Front.git
 ```
 
 Ingresar en el proyecto y ejecutar el comando:
