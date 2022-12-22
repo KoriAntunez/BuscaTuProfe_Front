@@ -16,6 +16,12 @@ npm install
 
 ## Despliegue
 
+Cree el archivo `.env` y copie el siguiente contenido, luego complete las variables
+
+```
+REACT_APP_SERVER="https://busca-tu-profe-back.vercel.app"
+```
+
 Finalmente, para levantar el proyecto localmente, ejecutar el siguiente comando:
 
 ```
