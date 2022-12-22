@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
 // Importación de rutas
-import routes from '../helpers/routes'; 
-import useAuth from '../auth/useAuth';
+import routes from '../../helpers/routes'; 
+import useAuth from '../../auth/useAuth';
 
 // Importación de componentes
 import Button from '../Button/Button';
