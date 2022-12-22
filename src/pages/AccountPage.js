@@ -5,10 +5,10 @@ import { useState, useEffect } from 'react';
 import useAuth from '../auth/useAuth';
 
 // Importación de componentes
-import Button from '../components/Button';
-import InputSelect from '../components/InputSelect';
-import InputText from '../components/InputText';
-import InputTextArea from '../components/InputTextArea';
+import Button from '../components/Button/Button';
+import InputSelect from '../components/InputSelect/InputSelect';
+import InputText from '../components/InputText/InputText';
+import InputTextArea from '../components/InputTextArea/InputTextArea';
 
 const AccountPage = () => {
     const { user } = useAuth();
