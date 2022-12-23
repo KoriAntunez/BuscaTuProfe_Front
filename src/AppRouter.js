@@ -13,6 +13,7 @@ import PrivateRoute from './routers/PrivateRoute';
 
 import AccountPage from './pages/AccountPage';
 import HomePage from './pages/HomePage';
+import CoursePage from './pages/CoursePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ServicesPage from './pages/ServicesPage';
@@ -45,6 +46,9 @@ function AppRouter() {
 
         <Route exact path={ routes.services } element={ <ServicesPage /> } />
         <Route exact path={ routes.service() } element="ServiceDetails" />
+
+        <Route exact path={ routes.panel.profile } element={ <PrivateRoute><AccountPage /></PrivateRoute> } />
+        <Route exact path={ routes.panel.courses } element={ <PrivateRoute><CoursePage /></PrivateRoute> } />
 
         <Route exact path={ routes.panel.profile } element={ <PrivateRoute><AccountPage /></PrivateRoute> } />
 
