@@ -29,7 +29,6 @@ describe('InputSelect', () => {
         }
         render(<InputSelect {...attrs}/>)
         const InputSel = screen.getByTestId('test-select')
-        
         expect(InputSel).toHaveAttribute('id', attrs.id)
         expect(InputSel).toHaveAttribute('name', attrs.id)
         expect(screen.getByRole('option')).toHaveTextContent('test')
