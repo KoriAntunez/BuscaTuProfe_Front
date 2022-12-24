@@ -161,8 +161,9 @@ const AccountPage = () => {
                 }
             })
             .then(res => {
-                // Enable vue/script-setup-uses-vars rule
+               
                 const data = res.data;
+            // Enable vue/script-setup-uses-vars rule
             }).catch(err => console.error(err));
     };
 
