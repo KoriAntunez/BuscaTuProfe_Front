@@ -8,10 +8,6 @@ on:
 jobs:
   ci_to_main:
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [14.x]
 
     steps:
       - name: Check out repository code
