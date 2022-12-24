@@ -161,9 +161,9 @@ const AccountPage = () => {
                 }
             })
             .then(res => {
-               
+            // eslint-disable-next-line no-unused-vars   
                 const data = res.data;
-            // eslint-disable-next-line  no-unused-vars
+            
             }).catch(err => console.error(err));
     };
 
