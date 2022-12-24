@@ -111,6 +111,7 @@ const CoursePage = () => {
                 }
             })
             .then(res => {
+            // eslint-disable-next-line no-unused-vars
                 const data = res.data;
             }).catch(err => console.error(err));
     };
