@@ -20,7 +20,7 @@ const HomePage = () => {
                             <div className="sm:text-center lg:text-left lg:max-w-xl">
                                 <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                                     <span className="block xl:inline">Encuentra a tu </span>
-                                    <span className="block text-color-2 xl:inline">tutor en línea</span>
+                                    <span className="block text-color-2 xl:inline">profesor en línea</span>
                                 </h1>
                                 <p className="mt-4 text-base text-gray-500 sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">
                                     ¿Problemas con algún curso? ¿Hay un tema que no logras entender? 
