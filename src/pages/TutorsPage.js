@@ -22,7 +22,7 @@ const TutorsPage = () => {
     }
 
     const filterTutors = () => {
-        if (search.length == 0)
+        if (search.length === 0)
             loadTutors();
 
         const filtered = tutors.filter(tutor => tutor.name.includes(search));
