@@ -32,6 +32,8 @@ function AppRouter() {
 
     if (user && token)
       login({ user, token }, location.state?.from);
+    
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
