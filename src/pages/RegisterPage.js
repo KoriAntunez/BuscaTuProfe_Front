@@ -29,6 +29,9 @@ const RegisterPage = () => {
             register();
             setSubmitted(false);
         }
+        // ? Only do this when necessary
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [errors]);
 
     const handleChange = (e) => {
