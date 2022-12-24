@@ -163,7 +163,7 @@ const AccountPage = () => {
             .then(res => {
                
                 const data = res.data;
-            // Enable vue/script-setup-uses-vars rule
+            // eslint-disable-next-line  no-unused-vars
             }).catch(err => console.error(err));
     };
 
