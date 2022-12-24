@@ -22,7 +22,7 @@ const ServicesPage = () => {
     }
 
     const filterServices = () => {
-        if (search.length == 0)
+        if (search.length === 0)
             loadServices();
 
         const filtered = services.filter(service => service.title.includes(search));
